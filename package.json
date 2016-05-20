@@ -2,14 +2,24 @@
   "name": "redux-postal-middleware",
   "version": "0.0.1",
   "description": "PostalJS redux middleware",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "scripts": {
-    
+    "build:lib": "babel lib --out-dir build"
   },
   "keywords": [
     "redux",
     "postaljs"
   ],
   "author": "Derek Hamilton",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.3.13",
+    "babel-core": "6.3.13",
+    "babel-loader": "6.2.0",
+    "babel-plugin-add-module-exports": "0.1.1",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "webpack": "1.12.9"
+  }
 }
