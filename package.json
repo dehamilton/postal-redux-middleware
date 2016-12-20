@@ -1,10 +1,11 @@
 {
   "name": "redux-postal-middleware",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "PostalJS redux middleware",
   "main": "build/index.js",
   "scripts": {
-    "build:lib": "babel lib --out-dir build"
+    "build:lib": "babel lib --out-dir build",
+    "postinstall": "npm run build:lib"
   },
   "keywords": [
     "redux",
