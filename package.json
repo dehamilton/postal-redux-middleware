@@ -1,6 +1,6 @@
 {
   "name": "redux-postal-middleware",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "PostalJS redux middleware",
   "main": "build/index.js",
   "scripts": {
